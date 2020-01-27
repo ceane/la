@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <style>
       * {
         box-sizing: border-box;
+        
       }
 
-      html, body, .main {
+      html, body {
         margin: 0;
-        font-family: sans-serif;
         width: 100%;
         min-height: 100vh;
+        font-family: "Roboto Mono", sans-serif;
+        -webkit-font-smoothing: subpixel-antialiased;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        display: inline-flex;
+      }
+
+      a:hover {
+        transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        transform: scale3d(1.1, 1.1, 1.1) perspective(1px) translateZ(0);
+        backface-visibility: hidden;
       }
 
       .flex {
@@ -29,33 +44,68 @@
       .grid {
         display: grid;
         grid-template-columns: 5fr auto 5fr;
-        grid-template-rows: 4vh auto;
+        grid-template-rows: 15fr auto 10fr;
+        grid-template-areas: 
+          ". header ."
+          ". main ."
+          ". footer .";
       }
 
       .header {
-        grid-row-start: 2 auto;
-        grid-column-start: 2;
+        grid-area: header;
       }
 
-      h1, h2, h3, h4, h5, h6, p {
-        font: normal 14 apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+      .header__name {
+        padding: 0;
+        margin-bottom: 0;
       }
 
-      .title {
-        padding: 3rem;
-        font-size: 4rem;
+      .main {
+        grid-area: main;
+      }
+
+      .footer {
+        grid-area: footer;
+        padding: 2rem;
+      }
+
+      .tbd {
+        display: inline-flex;
+        padding: .35rem;
+        color: #979797;
+      }
+
+      .no-transform a:hover {
+        transition: none;
+        transform: none;
+      }
+
+      h1, h2, h3, h4, h5, h6, p, .footer {
+        font: normal 14 "Roboto Mono", sans-serif;
       }
     </style>
   </head>
-  <body>
-    <main class="main grid">
-        <header class="header">
-          <h1 class="title">Ceane La.</h1>
-          <code>software engineer, front-end</code>
-        </header>
-    </main>
-    <footer>
+  <body class="grid">
+    <header class="header">
+      <h1 class="header__name">Ceane La.</h1>
+      <code>software engineer, front-end</code>
+    </header>
 
+    <main class="main">
+      <h2>links &#128279;</h2>
+      <ul>
+        <li><a href="https://github.com/ceanela/ceanela.github.io">Growth</a></li>
+      </ul>
+    </main>
+  
+    <footer class="footer">
+      <a href="https://github.com/ceanela">Github</a>
+      <a href="https://twitter.com/ceaneceo">Twitter</a>
+      <span>&nbsp;|&nbsp;</span>
+      <span>&#9632; from Ceane Corporation &copy; 2020</span>
+      <span>&nbsp;|&nbsp;</span>
+      <span class="no-transform"><a href="https://ceane.github.io/">&#127765; Nocturnal</a><span class="tbd">&#9632; TBD</span></span>
+      <span class="no-transform"><a>What's a Focus? (2020)</a><span class="tbd">&#9632; TBD</span></span>
     </footer>
   </body>
 </html>

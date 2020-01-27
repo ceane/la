@@ -1,5 +1,7 @@
 # ceane.la / growth 🧬
 
+*Ceane Lamerez © 2020*
+
 Hey Ceane (pronounced Shawn)! How are you developing across the years? 
 
 
