@@ -2,12 +2,13 @@
 <html>
   <head>
     <style>
-      html, body {
-        font: normal 14 apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
-        margin: 0;
+      * {
+        box-sizing: border-box;
       }
 
-      body, main {
+      html, body {
+        margin: 0;
+        font-family: sans-serif;
         width: 100%;
         min-height: 100vh;
       }
@@ -16,9 +17,17 @@
         display: flex;
       }
 
+      .flex-column {
+        flex-direction: column;
+      }
+
       .flex-center {
         align-content: center;
         justify-content: center;
+      }
+
+      h1, h2, h3, h4, h5, h6, p {
+        font: normal 14 apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
       }
 
       .title {
@@ -28,7 +37,7 @@
     </style>
   </head>
   <body class="flex flex-center">
-    <main>
+    <main class="flex flex-column">
         <h1 class="title">Ceane La.</h1>
         <code>software engineer, front-end</code>
     </main>
