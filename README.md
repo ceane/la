@@ -18,25 +18,27 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
 ## 2020 / 🌕 nocturnal, AI, & ■ from Ceane Corporation
 * 🎯 Goals / Retrospect
   - [ ] Major personal reorganization to remain transparent and accountable througout the years
-  - [ ] launch V1 of 🌕 nocturnal (my first startup! 🍻))
+  - [ ] Get faster with the keyboard
+  - [ ] launch V1 of 🌕 nocturnal (my first startup! 🍻)
     - [ ] Gain a decent AI & ML engineering background
   - [ ] Experiment with AR / VR
-  - [ ] Get faster with the keyboard
   - [ ] More hobbyist programmings
   - [ ] Read more with annotations!
-  - [ ] Write more. ✍️
+  - [x] Write more. ✍️
   - [ ] Exercise more.
   - [ ] Eat better!
 
 * 📖 Reading List and Events (code, ai, technical)
-  * 
+  * [21 Neurotech Startups To Watch](https://www.cbinsights.com/research/neurotech-startups-to-watch/)
+  * Quantum Computing Progress and Prospects by 
+    * Essential Hardware Components of a Quantum Computer
 
 * 🎻 Proofs
   * Recursion / F#
 
 ## 2019 / ■ from Ceane Corporation
 * 🎯 Goals / Retrospect
-  - [x] Do my own startup
+  - [x] Do my own startup / ■ Ceane Corporation :tada:
   - [x] Concept future AR experiences
   - [x] Concept tech for focus
     * Neuromodulation
@@ -49,6 +51,7 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
       > design all the things!
 
 * 📖 Reading List and Events (code, ai, technical)
+  * TBD
 
 
 ## 2018 / 🌕 nocturnal
@@ -77,8 +80,9 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
 * 🎯 Goals / Retrospect
   - [x] Keep learning and advocating for ES6 features
   - [x] Became an omnivore once more.
-  - * Figma 💡
+  * Figma 💡
     > A fantastic design tool I've been looking for. Switched from Sketch to Figma for my design workflow.
+  * Data Science is growing as an industry!
 
 
 ## 2015 / life?
