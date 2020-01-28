@@ -4,6 +4,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <style>
       :root {
+        --ForeroundFFF: #FFF;
+        --ForegroundDB: #dbdbdb;
         --Grey97: #979797;
         --CinemaAB: #444444;
         --CinemaA: #424242;
@@ -15,7 +17,6 @@
 
       * {
         box-sizing: border-box;
-        
       }
 
       html, body {
@@ -24,6 +25,8 @@
         min-height: 100vh;
         font-family: "Roboto Mono", sans-serif;
         -webkit-font-smoothing: subpixel-antialiased;
+        background: var(--ForeroundFFF);
+        color: var(--CinemaZ);
       }
 
       a {
@@ -38,60 +41,121 @@
         backface-visibility: hidden;
       }
 
-      .flex {
-        display: flex;
+      .list-style-none {
+        list-style: none;
       }
 
-      .flex-column {
-        flex-direction: column;
+      .color__db {
+        color: var(--ForegroundDB);
       }
 
-      .flex-center {
-        align-content: center;
-        justify-content: center;
+      .color__97 {
+        color: var(--Grey97);
       }
 
-      .grid {
-        display: grid;
-        grid-template-columns: 5fr auto 5fr;
-        grid-template-rows: 15fr auto 10fr;
-        grid-template-areas: 
-          ". header ."
-          ". main ."
-          ". footer .";
+      .color__cinemaA {
+        color: var(--CinemaA);
       }
 
-      .header {
-        grid-area: header;
+      .color__cinemaAB {
+        color: var(--CinemaAB);
       }
 
-      .header__name {
+      .color__cinemaB {
+        color: var(--CinemaB);
+      }
+
+      .color__cinemaC {
+        color: var(--CinemaC);
+      }
+
+      .color__cinemaD {
+        color: var(--CinemaD);
+      }
+
+      .color__cinemaZ {
+        color: var(--CinemaZ);
+      }
+
+      .m0 {
+        margin: 0;
+      }
+
+      .p0 {
         padding: 0;
-        margin-bottom: 0;
       }
 
-      .main {
-        grid-area: main;
+      .p1 {
+        padding: 1rem;
       }
 
-      .footer {
-        grid-area: footer;
+      .py1 {
+        padding: 1rem 0;
+      }
+
+      .pl1 {
+        padding-left: 1rem;
+      }
+
+      .p2 {
         padding: 2rem;
       }
 
-      .block-cc {
-        color: var(--CinemaA);
+      .pA {
+        padding: 6vh 2rem;
+      }
+
+      .lh-1 {
+        line-height: 1;
+      }
+
+      .inline-flex {
+        display: inline-flex;
+      }
+
+      .min-height-fill {
+        min-height: 100%;
+      }
+
+      .body-grid, .main-grid, .list-grid {
+        display: grid;
+      }
+
+      .body-grid {
+        grid: auto 1fr auto / auto;
+        padding: 4rem;
+      }
+
+      .main-grid {
+        grid: auto / 1fr 1fr 1fr;
+        padding: 5vmin;
+        gap: 0 5vmin;
+      }
+
+      .list-grid {
+        grid: auto / 1fr auto auto;
+      }
+
+      .display__image {
+        width: 100%;
+        margin: 0;
+        background: #f6f6f6;
+      }
+
+      .image-auto {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
       }
       
       .block {
         display: inline-flex;
-        font-size: 3rem;
-      }
-
-      .tbd {
-        display: inline-flex;
-        padding: .35rem .5rem;
-        color: var(--Grey97);
+        width: 1.25ch;
+        height: 1.25ch;
+        background: var(--ForegroundDB);
+        color: transparent;
+        line-height: 0.75;
       }
 
       .no-transform a:hover {
@@ -99,51 +163,118 @@
         transform: none;
       }
 
-      h1, h2, h3, h4, h5, h6, p, .footer {
-        font: normal 14 "Roboto Mono", sans-serif;
+      @media screen and (max-width: 600px) {
+        .body-grid {
+          padding: 7vh 2rem 1rem;
+        }
+
+        .main-grid {
+          grid: 1fr 1fr 1fr / auto;
+          gap: 9vmin 0;
+        }
+
+        .list-grid {
+          grid: auto / auto;
+        }
+
+        .mobile-block {
+          display: block;
+        }
+
+        .m-flex-column {
+          flex-direction: column;
+        }
+
+        .m-py1 {
+          padding: 1rem 0;
+        }
+
+        .m-mt1 {
+          margin-top: 1rem;
+        }
+
+        .footer {
+          font-size: .8rem;
+        }
       }
     </style>
     <title>Software Engineer in SF | Ceane Lamerez </title>
-    <script>
-      let count = 0;
-      let titles = [
-        "Focus&trade;",
-        "Software Engineer in SF",
-        "Ceane LA.",
-        "CEO of ■ Ceane Corporation",
-      ];
-
-      const interval = () => {
-        document.title = titles[count % (titles.length)]
-
-        count++;
-      };
-
-      let id = setInterval(interval, 1000)
-    </script>
   </head>
-  <body class="grid">
+  <body class="body-grid">
     <header class="header">
-      <h1 class="header__name">Ceane La.</h1>
-      <code>software engineer, front-end</code>
+      <h1 class="m0">
+        <span class="color__cinemaZ">Ceane La.</span>
+
+        <span class="focus explorable">
+          <span class="color__db">&nbsp;/&nbsp;</span>
+          <span class="color__db">Software Engineer & CEO</span>  
+        </span>
+      </h1>
+      
+      <section class="list-grid py1">
+        <span class="color__97">San Francisco, California</span>
+
+        <ul class="list-style-none inline-flex m-flex-column p0 m0 lh-1">
+          <li class="inline-flex mobile-block m-py1">
+            <span class="color__db">&nbsp;&nbsp;&nbsp;/&nbsp;</span>
+            <span><a href="https://ceane.github.io/">&#127765; Nocturnal<sup>&trade;</sup></a></span>
+          </li>
+          <li class="inline-flex mobile-block m-py1">
+            <span class="color__db">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+            <span><a href="https://ceane.github.io/">What's a Focus<sup>&trade;</sup>?</a></span>
+          </li>
+          <li class="inline-flex mobile-block m-py1">
+            <span class="color__db">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+            <span class="color__db"><span class="block">&#9632;</span> from Ceane Corporation</span>
+          </li>
+        </ul>
+
+        <div></div>
+      </section>
     </header>
 
-    <main class="main">
-      <h2>links &#128279;</h2>
-      <ul>
-        <li><a href="https://github.com/ceanela/ceanela.github.io">Growth</a></li>
-        <li><a href="https://www.dropbox.com/s/l0dkodx1944wx5u/Resume.pdf?dl=0">Resume / 2020</a></li>
-      </ul>
+    <main class="main-grid">
+      <figure class="display__image">
+        <img class="image-auto" src="static/images/one-eighty-one.jpeg" />
+      </figure>
+      
+      <figure class="display__image">
+        <img class="image-auto" src="static/images/one-eighty-one.jpeg" />
+      </figure>
+
+      <figure class="display__image">
+        <img class="image-auto" src="static/images/one-eighty-one.jpeg" />
+      </figure>
     </main>
   
-    <footer class="footer">
-      <a href="https://github.com/ceanela">Github</a>
-      <a href="https://twitter.com/ceaneceo">Twitter</a>
-      <span>&nbsp;|&nbsp;</span>
-      <span class="block-cc"><span class="block">&#9632;</span> from Ceane Corporation &copy; 2020</span>
-      <span>&nbsp;|&nbsp;</span>
-      <span class="no-transform"><a href="https://ceane.github.io/">&#127765; Nocturnal<sup>&trade;</sup></a><span class="tbd">&#9632; TBD</span></span>
-      <span class="no-transform"><a>What's a Focus<sup>&trade;</sup>? (2020)</a><span class="tbd">&#9632; TBD</span></span>
+    <footer class="list-grid footer">
+      <ul class="list-style-none inline-flex m-flex-column p0 m0">
+        <li class="inline-flex">
+          <span class="inline-flex color__db"><span>&#9632;&nbsp;&nbsp;</span> Ceane Lamerez &copy; 2020</span>
+          <span class="color__db">&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+        </li>
+        <li class="inline-flex">
+          <a class="inline-flex" href="https://github.com/ceanela/ceanela.github.io">Growth</a>
+          <span class="color__db">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+        </li>
+        <li class="inline-flex">
+          <a class="inline-flex" href="https://www.dropbox.com/s/l0dkodx1944wx5u/Resume.pdf?dl=0">Resume</a>
+          <span class="color__db">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+        </li>
+        <li class="inline-flex">
+          <a class="inline-flex" href="https://github.com/ceanela">Github</a>
+          <span class="color__db">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+        </li>
+        <li class="inline-flex">
+          <a class="inline-flex" href="https://twitter.com/ceaneceo">Twitter</a>
+        </li>
+      </ul>
+
+      <p class="color__db pl1 m0 m-mt1">
+        <span>>&nbsp;</span>
+        <q>The mind is an infinite realm of possibilities.</q>
+        <span>&nbsp;/&nbsp; Ceane</span>
+      </p>
     </footer>
   </body>
 </html>
