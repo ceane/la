@@ -10,7 +10,7 @@ const Header = () => (
         <span>&nbsp;/&nbsp;</span>
         <span>Software Engineer & CEO</span>
         <span className="color__f6">/ &#20320;&#22909;</span >
-        <span className="color__f6">/ &#50668;&#48372;&#49464;&#50836;</span >
+        <span className="color__f6">/ &#50668;&#48372;&#49464;&#50836;</span>
       </span>
     </h1>
     
