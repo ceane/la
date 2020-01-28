@@ -109,7 +109,15 @@
         line-height: 1;
       }
 
+      .inline, .inline-all > * {
+        display: inline;
+      }
+
       .inline-flex {
+        display: inline-flex;
+      }
+
+      .nowrap {
         display: inline-flex;
       }
 
@@ -134,6 +142,7 @@
 
       .list-grid {
         grid: auto / 1fr auto auto;
+        align-items: center;
       }
 
       .display__image {
@@ -165,7 +174,18 @@
         transform: none;
       }
 
+      .parllax-root {
+        transform-style: preserve-3d;
+        transform-origin: center center;
+        perspective-origin: center center;
+        -webkit-tap-highlight-color: rgba(0,0,0,.4);
+      }
+
       @media screen and (max-width: 600px) {
+        .m-hide {
+          display: none;
+        }
+
         .body-grid {
           padding: 7vh 2rem 1rem;
         }
@@ -207,27 +227,35 @@
       <h1 class="m0">
         <span class="color__cinemaZ">Ceane La.</span>
 
-        <span class="focus explorable">
-          <span class="color__db">&nbsp;/&nbsp;</span>
-          <span class="color__db">Software Engineer & CEO</span>  
+        <span class="focus explorable color__db">
+          <span>&nbsp;/&nbsp;</span>
+          <span>Software Engineer & CEO</span>
+          <span>/ &#20320;&#22909;</span>
         </span>
       </h1>
       
       <section class="list-grid py1">
-        <span class="color__97">San Francisco, California</span>
-
-        <ul class="list-style-none inline-flex m-flex-column p0 m0 lh-1">
-          <li class="inline-flex mobile-block m-py1">
-            <span class="color__db">&nbsp;&nbsp;&nbsp;/&nbsp;</span>
+        <p class="m0">
+          <span class="color__97">San Francisco, California</span>
+          <span class="color__db"><span class="m-hide">&nbsp;&nbsp;</span >/&nbsp;&nbsp;</span>
+          <span class="color__db">
+            <span class="nowrap">&#127932; Listening to &ndash;</span>
+            <a href="https://www.youtube.com/watch?v=3JrDhzPoLkU" target="_blank">Hoody (&#54980;&#46356;) - '&#50504;&#45397;&#55176; (Adios)</a>
+          </span>
+        </p >
+        
+        <ul class="list-style-none inline inline-all p0 m0 color__db">
+          <li>
+            <span><span class="m-hide">&nbsp;&nbsp;&nbsp;</span >/&nbsp;</span>
             <span><a href="https://ceane.github.io/">&#127765; Nocturnal<sup>&trade;</sup></a></span>
           </li>
-          <li class="inline-flex mobile-block m-py1">
-            <span class="color__db">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+          <li>
+            <span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
             <span><a href="https://ceane.github.io/">What's a Focus<sup>&trade;</sup>?</a></span>
           </li>
-          <li class="inline-flex mobile-block m-py1">
-            <span class="color__db">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
-            <span class="color__db"><span class="block">&#9632;</span> from Ceane Corporation</span>
+          <li>
+            <span><span class="m-hide">&nbsp;&nbsp;</span>/&nbsp;&nbsp;</span>
+            <span><span class="block">&#9632;</span> from Ceane Corporation</span>
           </li>
         </ul>
 
@@ -236,31 +264,31 @@
     </header>
 
     <main class="main-grid">
-      <figure class="display__image" style="background-image: url(static/images/display/1.jpg);"></figure>
-      <figure class="display__image" style="background-image: url(static/images/display/2.jpg);"></figure>
-      <figure class="display__image" style="background-image: url(static/images/display/3.jpg);"></figure>
+      <figure class="display__image parllax-root" style="background-image: url(static/images/display/1.jpg);"></figure>
+      <figure class="display__image parllax-root" style="background-image: url(static/images/display/2.jpg);"></figure>
+      <figure class="display__image parllax-root" style="background-image: url(static/images/display/3.jpg);"></figure>
     </main>
   
     <footer class="list-grid footer">
-      <ul class="list-style-none inline-flex m-flex-column p0 m0">
-        <li class="inline-flex">
-          <span class="inline-flex color__db"><span>&#9632;&nbsp;&nbsp;</span> Ceane Lamerez &copy; 2020</span>
-          <span class="color__db">&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+      <ul class="list-style-none inline inline-all color__db p0 m0">
+        <li>
+          <span><span>&#9632;&nbsp;&nbsp;</span> Ceane Lamerez &copy; 2020</span>
+          <span>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;</span>
         </li>
-        <li class="inline-flex">
-          <a class="inline-flex" href="https://github.com/ceanela/ceanela.github.io">Growth</a>
+        <li>
+          <a href="https://github.com/ceanela/ceanela.github.io">Growth</a>
           <span class="color__db">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
         </li>
-        <li class="inline-flex">
-          <a class="inline-flex" href="https://www.dropbox.com/s/l0dkodx1944wx5u/Resume.pdf?dl=0">Resume</a>
+        <li>
+          <a href="https://www.dropbox.com/s/l0dkodx1944wx5u/Resume.pdf?dl=0">Resume</a>
           <span class="color__db">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
         </li>
-        <li class="inline-flex">
-          <a class="inline-flex" href="https://github.com/ceanela">Github</a>
+        <li>
+          <a href="https://github.com/ceanela">Github</a>
           <span class="color__db">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
         </li>
-        <li class="inline-flex">
-          <a class="inline-flex" href="https://twitter.com/ceaneceo">Twitter</a>
+        <li>
+          <a href="https://twitter.com/ceaneceo">Twitter</a>
         </li>
       </ul>
 
