@@ -139,7 +139,9 @@
       .display__image {
         width: 100%;
         margin: 0;
-        background: #f6f6f6;
+        background-color: #f6f6f6;
+        background-size: cover;
+        background-position: center center;
       }
 
       .image-auto {
@@ -234,17 +236,9 @@
     </header>
 
     <main class="main-grid">
-      <figure class="display__image">
-        <img class="image-auto" src="static/images/one-eighty-one.jpeg" />
-      </figure>
-      
-      <figure class="display__image">
-        <img class="image-auto" src="static/images/one-eighty-one.jpeg" />
-      </figure>
-
-      <figure class="display__image">
-        <img class="image-auto" src="static/images/one-eighty-one.jpeg" />
-      </figure>
+      <figure class="display__image" style="background-image: url(static/images/display/1.jpg);"></figure>
+      <figure class="display__image" style="background-image: url(static/images/display/2.jpg);"></figure>
+      <figure class="display__image" style="background-image: url(static/images/display/3.jpg);"></figure>
     </main>
   
     <footer class="list-grid footer">
