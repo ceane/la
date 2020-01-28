@@ -3,6 +3,16 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <style>
+      :root {
+        --Grey97: #979797;
+        --CinemaAB: #444444;
+        --CinemaA: #424242;
+        --CinemaB: #262626;
+        --CinemaC: #181818;
+        --CinemaD: #121212;
+        --CinemaZ: #0e0e0e;
+      }
+
       * {
         box-sizing: border-box;
         
@@ -69,10 +79,19 @@
         padding: 2rem;
       }
 
+      .block-cc {
+        color: var(--CinemaA);
+      }
+      
+      .block {
+        display: inline-flex;
+        font-size: 3rem;
+      }
+
       .tbd {
         display: inline-flex;
-        padding: .35rem;
-        color: #979797;
+        padding: .35rem .5rem;
+        color: var(--Grey97);
       }
 
       .no-transform a:hover {
@@ -84,6 +103,24 @@
         font: normal 14 "Roboto Mono", sans-serif;
       }
     </style>
+    <title>Software Engineer in SF | Ceane Lamerez </title>
+    <script>
+      let count = 0;
+      let titles = [
+        "Focus&trade;",
+        "Software Engineer in SF",
+        "Ceane LA.",
+        "CEO of ■ Ceane Corporation",
+      ];
+
+      const interval = () => {
+        document.title = titles[count % (titles.length)]
+
+        count++;
+      };
+
+      let id = setInterval(interval, 1000)
+    </script>
   </head>
   <body class="grid">
     <header class="header">
@@ -95,6 +132,7 @@
       <h2>links &#128279;</h2>
       <ul>
         <li><a href="https://github.com/ceanela/ceanela.github.io">Growth</a></li>
+        <li><a href="https://www.dropbox.com/s/l0dkodx1944wx5u/Resume.pdf?dl=0">Resume / 2020</a></li>
       </ul>
     </main>
   
@@ -102,10 +140,10 @@
       <a href="https://github.com/ceanela">Github</a>
       <a href="https://twitter.com/ceaneceo">Twitter</a>
       <span>&nbsp;|&nbsp;</span>
-      <span>&#9632; from Ceane Corporation &copy; 2020</span>
+      <span class="block-cc"><span class="block">&#9632;</span> from Ceane Corporation &copy; 2020</span>
       <span>&nbsp;|&nbsp;</span>
-      <span class="no-transform"><a href="https://ceane.github.io/">&#127765; Nocturnal</a><span class="tbd">&#9632; TBD</span></span>
-      <span class="no-transform"><a>What's a Focus? (2020)</a><span class="tbd">&#9632; TBD</span></span>
+      <span class="no-transform"><a href="https://ceane.github.io/">&#127765; Nocturnal<sup>&trade;</sup></a><span class="tbd">&#9632; TBD</span></span>
+      <span class="no-transform"><a>What's a Focus<sup>&trade;</sup>? (2020)</a><span class="tbd">&#9632; TBD</span></span>
     </footer>
   </body>
 </html>
