@@ -1,0 +1,77 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js --extensions '.ts,.tsx'",
+    "watch": "lerna exec --parallel -- babel --root-mode upward --watch src -d lib --ignore **/*.story.js,**/*.spec.js --extensions '.ts,.tsx'",
+    "tsc": "tsc",
+    "dev": "start-storybook -p 5555",
+    "precommit": "pretty-quick --staged"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-typescript": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "@storybook/preset-create-react-app": "^1.5.2",
+    "@storybook/preset-typescript": "^1.2.0",
+    "@storybook/react": "^5.3.12",
+    "@types/jest": "^25.1.2",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-primitives": "^0.6.2",
+    "@types/react-test-renderer": "^16.9.2",
+    "@types/styled-components": "^4.4.2",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.7",
+    "eslint": "^6.8.0",
+    "eslint-config-alloy": "^3.5.0",
+    "eslint-plugin-react": "^7.18.3",
+    "fork-ts-checker-webpack-plugin": "^4.0.3",
+    "husky": "^4.2.1",
+    "jest": "^25.1.0",
+    "jest-haste-map": "^25.1.0",
+    "jest-resolve": "^25.1.0",
+    "jest-styled-components": "^7.0.0",
+    "lerna": "^3.20.2",
+    "pretty-quick": "^2.0.1",
+    "react": "^16.12.0",
+    "react-docgen-typescript-loader": "^3.6.0",
+    "react-dom": "^16.12.0",
+    "react-primitives": "^0.8.0",
+    "react-test-renderer": "^16.12.0",
+    "source-map-loader": "^0.2.4",
+    "styled-components": "^5.0.1",
+    "ts-jest": "^25.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "jest": {
+    "setupFiles": [
+      "./test/setup.ts"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "precommit"
+    }
+  }
+}

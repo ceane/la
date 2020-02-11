@@ -6,9 +6,14 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
 
 
 ### Languages and Pacakges / so far...
+  *In order from most knowledgable to least*
   * JavaScript <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="10" height="10">
   * React
   * F#
+  * Ruby
+  * Go
+  * Python
+  * PHP
 
 <details>
   <summary>breakdown</summary>
@@ -19,7 +24,7 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
 
 ## 2020 / 🌕 nocturnal, AI, & ■ from Ceane Corporation
 * 🎯 Goals / Retrospect
-  - [ ] Major personal reorganization to remain transparent and accountable througout the years
+  - [ ] Major personal reorganization to remain transparent & accountable througout the years
   - [ ] Get faster with the keyboard
   - [ ] launch V1 of 🌕 nocturnal (my first startup! 🍻)
     - [ ] Gain a decent AI & ML engineering background
@@ -29,6 +34,8 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   - [x] Write more. ✍️
   - [ ] Exercise more.
   - [ ] Eat better!
+  * Majorly restructure my personal organization & [open my Trello board to the public](https://trello.com/b/Px2FlyFu/ceane)
+    * Trello is awesome :tada:
 
 * 📖 Reading List and Events (code, ai, technical)
   * [21 Neurotech Startups To Watch](https://www.cbinsights.com/research/neurotech-startups-to-watch/)
@@ -85,7 +92,7 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   * Figma 💡
     > A fantastic design tool I've been looking for. Switched from Sketch to Figma for my design workflow.
   * Data Science is growing as an industry!
-
+  * Do Trello boards for year to year development
 
 ## 2015 / life?
 * 🎯 Goals / Retrospect
@@ -129,6 +136,8 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   - [x] Move to Scottsalde, Arizona 🌵
     > Paradise. Very Clean. Luxurious!
   * My first iPhone (silver iPhone 5)
+  * First tech job, programming as a front-end touching some full stack things (PHP :ghast:)
+  * Second tech job with a much more mature stack (C# :happy:)
 
 
 ## 2011 / 🎓 graduating
