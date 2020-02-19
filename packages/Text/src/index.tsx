@@ -1,9 +1,9 @@
 // ■ from Ceane La. © 2020
-// ceanela.github.io
-import styled from 'styled-components/primitives'
+// https://ceane.la
+import styled from 'styled-components'
 
-const Text = styled.Text`
-  font-family: 'Sharp Sans','.SFNSDisplay-Regular',-apple-system,BlinkMacSystemFont,sans-serif;
+const Text = styled.p`
+  font-family: 'Roboto Mono','.SFNSDisplay-Regular',-apple-system,BlinkMacSystemFont,sans-serif;
 `
 
 export default Text

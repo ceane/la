@@ -1,12 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// ■ from Ceane La. © 2020
+// https://ceane.la
+import React from 'react'
+import { ThemeProvider } from 'styled-components'
 import Metadata from '@ceanela/metadata'
+import FontLoader from '@ceanela/fontloader'
+import Grid from '@ceanela/grid'
+import themes from '@ceanela/themes'
 
-const App = () => {
-  return (
-    <div className="App">
-      <Metadata />
+import logo from './logo.svg'
+import './App.css'
+
+const App = () => (
+  <ThemeProvider theme={themes}>
+    <Metadata />
+    <FontLoader />
+    <Grid>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,8 +29,8 @@ const App = () => {
           Learn React
         </a>
       </header>
-    </div>
-  );
-}
+    </Grid>
+  </ThemeProvider>
+)
 
-export default App;
+export default App

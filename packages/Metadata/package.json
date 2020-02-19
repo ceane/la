@@ -1,15 +1,22 @@
 {
   "name": "@ceanela/metadata",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "Metadata",
+  "author": "Ceane La. <ceanela@users.noreply.github.com> (https://ceane.la)",
+  "license": "SEE LICENSE IN ../LISENCE.md",
   "main": "lib/index.js",
   "module": "src/index.tsx",
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "@types/react-helmet": "^5.0.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "peerDependencies": {
     "@types/react-helmet": "^5.0.15",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

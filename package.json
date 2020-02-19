@@ -1,15 +1,26 @@
 {
   "name": "root",
   "private": true,
+  "author": "Ceane La. <ceanela@users.noreply.github.com> (https://ceane.la)",
+  "license": "SEE LICENSE IN LISENCE.md",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js --extensions '.ts,.tsx'",
-    "watch": "lerna exec --parallel -- babel --root-mode upward --watch src -d lib --ignore **/*.story.js,**/*.spec.js --extensions '.ts,.tsx'",
-    "tsc": "tsc",
-    "dev": "start-storybook -p 5555",
-    "precommit": "pretty-quick --staged"
+    "prerelease": "yarn build",
+    "release": "lerna publish",
+    "precommit": "pretty-quick --staged",
+    "commit": "git-cz",
+    "prebuild": "tsc",
+    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js,ceane.la --extensions '.ts,.tsx'",
+    "watch": "lerna exec --parallel -- babel --root-mode upward --watch src -d lib --ignore **/*.story.js,**/*.spec.js,ceane.la --extensions '.ts,.tsx'",
+    "storybook": "start-storybook -p 3002",
+    "lint": "run-p -c lint:*",
+    "lint:ts": "tslint 'packages/**/*.ts{,x}'",
+    "lint:css": "stylelint 'packages/**/*.ts{,x}'",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "tsc": "tsc"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -18,45 +29,62 @@
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
+    "@storybook/addon-knobs": "^6.0.0-alpha.13",
     "@storybook/preset-create-react-app": "^1.5.2",
     "@storybook/preset-typescript": "^1.2.0",
-    "@storybook/react": "^5.3.12",
+    "@storybook/react": "^5.3.13",
     "@types/jest": "^25.1.2",
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
     "@types/react-primitives": "^0.6.2",
     "@types/react-test-renderer": "^16.9.2",
-    "@types/styled-components": "^4.4.2",
-    "@typescript-eslint/eslint-plugin": "^2.19.0",
-    "@typescript-eslint/parser": "^2.19.0",
+    "@types/storybook__addon-knobs": "^5.2.1",
+    "@types/styled-components": "^4.4.3",
+    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "@typescript-eslint/parser": "^2.19.2",
+    "awesome-typescript-loader": "^5.2.1",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^25.1.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-styled-components": "^1.10.7",
+    "babel-preset-typescript": "^7.0.0-alpha.19",
+    "commitizen": "^4.0.3",
+    "copyfiles": "^2.2.0",
+    "cz-lerna-changelog": "^2.0.0",
     "eslint": "^6.8.0",
     "eslint-config-alloy": "^3.5.0",
     "eslint-plugin-react": "^7.18.3",
-    "fork-ts-checker-webpack-plugin": "^4.0.3",
-    "husky": "^4.2.1",
+    "fontfaceobserver": "^2.1.0",
+    "fork-ts-checker-webpack-plugin": "^4.0.4",
+    "husky": "^4.2.3",
     "jest": "^25.1.0",
     "jest-haste-map": "^25.1.0",
     "jest-resolve": "^25.1.0",
     "jest-styled-components": "^7.0.0",
     "lerna": "^3.20.2",
+    "moment": "^2.24.0",
+    "npm-run-all": "^4.1.5",
     "pretty-quick": "^2.0.1",
     "react": "^16.12.0",
     "react-docgen-typescript-loader": "^3.6.0",
     "react-dom": "^16.12.0",
+    "react-native-web": "^0.12.1",
     "react-primitives": "^0.8.0",
     "react-test-renderer": "^16.12.0",
     "source-map-loader": "^0.2.4",
     "styled-components": "^5.0.1",
+    "stylelint": "^13.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
     "ts-jest": "^25.2.0",
     "ts-loader": "^6.2.1",
+    "tslint": "^6.0.0",
+    "tslint-react": "^4.2.0",
     "typescript": "^3.7.5",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   },
   "prettier": {
     "trailingComma": "none",
@@ -72,6 +100,11 @@
   "husky": {
     "hooks": {
       "pre-commit": "precommit"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
     }
   }
 }

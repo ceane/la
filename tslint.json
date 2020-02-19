@@ -1,0 +1,8 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "rules": {
+    "semicolon": [true, "never"],
+    "no-implicit-dependencies": [true, "dev"],
+    "jsx-alignment": false
+  }
+}

@@ -1,11 +1,15 @@
 // ■ from Ceane La. © 2020
-// ceanela.github.io
+// https://ceane.la
 module.exports = {
-  presets: ['@storybook/preset-typescript'],
+  addons: ['@storybook/preset-typescript'],
   stories: ['../packages/**/src/*.story.[tj]sx'],
   webpackFinal: async config => {
-    console.log(config.module.rules[2].use)
+    config.module.rules.push({
+      test: /\.(ts|tsx)$/,
+      loader: require.resolve('awesome-typescript-loader'),
+    });
+    config.resolve.extensions.push('.ts', '.tsx')
     
-    return config;
+    return config
   }
 }

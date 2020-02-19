@@ -6,7 +6,7 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
 
 
 ### Languages and Pacakges / so far...
-  *In order from most knowledgable to least*
+  *In order from most knowledgable*
   * JavaScript <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="10" height="10">
   * React
   * F#
@@ -15,12 +15,7 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   * Python
   * PHP
 
-<details>
-  <summary>breakdown</summary>
-
-  ## year / yearly concern
-</details>
-
+>  year / top concern
 
 ## 2020 / 🌕 nocturnal, AI, & ■ from Ceane Corporation
 * 🎯 Goals / Retrospect
@@ -36,6 +31,7 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   - [ ] Eat better!
   * Majorly restructure my personal organization & [open my Trello board to the public](https://trello.com/b/Px2FlyFu/ceane)
     * Trello is awesome :tada:
+  * Making a Focus™ via an app
 
 * 📖 Reading List and Events (code, ai, technical)
   * [21 Neurotech Startups To Watch](https://www.cbinsights.com/research/neurotech-startups-to-watch/)
@@ -49,9 +45,10 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
 * 🎯 Goals / Retrospect
   - [x] Do my own startup / ■ Ceane Corporation :tada:
   - [x] Concept future AR experiences
-  - [x] Concept tech for focus
-    * Neuromodulation
-    * Somatic Control
+  - [x] Research & concept tech for a Focus™
+    * Neuro-modulation
+    * Neuro-somatic control
+    * Quantum effects in vision & lighting, like head positioning, orientation, etc.
   * iOS 13 (Sign in with Apple, ARKit 3, Custom Fonts)
   * Decide which tools I'm going to use personally for day-to-day stuff 💡
     * Trello
@@ -93,6 +90,7 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
     > A fantastic design tool I've been looking for. Switched from Sketch to Figma for my design workflow.
   * Data Science is growing as an industry!
   * Do Trello boards for year to year development
+  * Worked with Agile workflow
 
 ## 2015 / life?
 * 🎯 Goals / Retrospect
@@ -103,7 +101,10 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   - [x] Move to San Francisco, California 🌁
     > Fog. Great Mass Transit. Food!
   - [x] Bring more awareness of ES2015/ES6 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="10" height="10"> into the workplace
-
+  - [x] Science readings & study
+    - [x] arXiv.org
+    - [x] Frontiers
+    - [x] PLOS
 
 ## 2014 / career
 * 🎯 Goals / Retrospect

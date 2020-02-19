@@ -1,0 +1,20 @@
+{
+  "name": "@ceanela/text",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Ceane La. <ceanela@users.noreply.github.com> (https://ceane.la)",
+  "license": "SEE LICENSE IN ../LISENCE.md",
+  "main": "lib/index.js",
+  "module": "src/index.tsx",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "styled-components": "^5.0.1"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "styled-components": "^5.0.1"
+  }
+}

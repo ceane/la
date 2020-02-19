@@ -1,3 +1,5 @@
+// ■ from Ceane La. © 2020
+// https://ceane.la
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

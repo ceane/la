@@ -12,7 +12,7 @@ var _reactHelmet = require("react-helmet");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 // ■ from Ceane La. © 2020
-// ceanela.github.io
+// https://ceane.la
 var Metadata = function Metadata(_ref) {
   var _ref$locale = _ref.locale,
       locale = _ref$locale === void 0 ? "en" : _ref$locale,
@@ -24,8 +24,15 @@ var Metadata = function Metadata(_ref) {
     lang: locale
   }), _react["default"].createElement("meta", {
     charSet: "utf-8"
-  }), _react["default"].createElement("link", {
-    rel: "prefetch"
+  }), path && _react["default"].createElement("link", {
+    rel: "dns-prefetch",
+    href: path
+  }), path && _react["default"].createElement("link", {
+    rel: "preconnect",
+    href: path
+  }), path && _react["default"].createElement("link", {
+    rel: "prefetch",
+    href: path
   }), _react["default"].createElement("link", {
     rel: "canonical",
     href: path
@@ -41,7 +48,7 @@ var Metadata = function Metadata(_ref) {
   }), _react["default"].createElement("meta", {
     property: "og:title",
     content: topic
-  }), _react["default"].createElement("meta", {
+  }), path && _react["default"].createElement("meta", {
     property: "og:url",
     content: path
   }), _react["default"].createElement("meta", {

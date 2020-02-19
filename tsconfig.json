@@ -1,33 +1,49 @@
 {
   "compilerOptions": {
+    "sourceMap": true,
+    "noEmit": true,
+    "strict": true,
+    "allowJs": true,
+    "jsx": "react",
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
-    "sourceMap": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "allowJs": true,
-    "noEmit": true,
-    "strict": true,
-    "esModuleInterop": true,
-    "jsx": "react",
+    "noImplicitAny": false,
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
     "resolveJsonModule": true,
-    "baseUrl": ".",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "rootDir": ".",
+    "baseUrl": "."
   },
+  "paths": {
+    "*": ["node_modules"],
+    "@ceanela/*": ["packages"]
+  },
+  "include": [
+    "packages"
+  ],
   "exclude": [
     "node_modules",
     "lib-esm",
     "lib"
   ],
-  "include": [
-    "packages/**/src",
-    "ceane.la/src"
-  ]
+  "lib": [
+    "es2016",
+    "dom"
+  ],
+  "files": [
+    "./types/custom.d.ts",
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "babelCore": "@babel/core"
+  }
 }

@@ -1,7 +1,14 @@
 {
   "name": "ceane.la",
-  "version": "0.1.0",
   "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "start:debug": "react-scripts --inspect-brk=5858 start --runInBand --no-cache",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,14 +21,6 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.1",
     "typescript": "~3.7.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "coverage": "jest --coverage",
-    "unit": "jest"
   },
   "eslintConfig": {
     "extends": "react-app"
