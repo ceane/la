@@ -1,0 +1,24 @@
+antigen use oh-my-zsh # oh-my-zsh via antigen
+
+antigen bundles <<EOBUNDLES
+	 brew
+   zsh-users/zsh-syntax-highlighting
+   zsh-users/zsh-autosuggestions
+   zsh-users/zsh-completions
+   lukechilds/zsh-nvm
+   git
+	 npm
+   node
+   chrissicool/zsh-256color
+   mkwmms/plugin-osx
+   zilongqiu/monorepo-zsh-plugin`
+EOBUNDLES
+
+antigen cache-gen
+
+THEME=denysdovhan/spaceship-prompt
+antigen list | grep $THEME; if [ $? -ne 0 ]; then antigen theme $THEME; fi
+
+
+antigen apply
+
