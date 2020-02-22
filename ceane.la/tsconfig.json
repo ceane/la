@@ -1,9 +1,5 @@
 {
   "extends": "../tsconfig",
-  "compilerOptions": {
-    "outDir": "lib"
+  "paths": {
   },
-  "include": [
-    "packages/**/lib"
-  ]
 }
