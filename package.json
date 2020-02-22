@@ -9,6 +9,7 @@
   "scripts": {
     "prerelease": "yarn build",
     "release": "lerna publish",
+    "bootstrap": "lerna bootstrap",
     "precommit": "pretty-quick --staged",
     "commit": "git-cz",
     "prebuild": "tsc",

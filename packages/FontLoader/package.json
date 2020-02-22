@@ -1,8 +1,7 @@
 {
   "name": "@ceanela/fontloader",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "description": "Loads fonts for web",
-  "private": true,
   "author": "Ceane La. <ceanela@users.noreply.github.com> (https://ceane.la)",
   "license": "SEE LICENSE IN ../LISENCE.md",
   "main": "lib/index.js",
