@@ -6,7 +6,9 @@
   "license": "SEE LICENSE IN ../LISENCE.md",
   "main": "lib/index.js",
   "module": "src/index.ts",
-  "scripts": {
-    "bootstrap": "lerna bootstrap --use-workspaces"
+  "dependencies": {
+    "@ceanela/fontloader": "^0.1.1",
+    "@ceanela/grid": "^0.1.1",
+    "@ceanela/metadata": "^0.1.1"
   }
 }

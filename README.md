@@ -1,37 +1,64 @@
-# ceane.la / growth 🧬
+# ceane.la 😎
+> *■ from Ceane La. © 2020*
+> *[https://ceane.la](https://ceane.la)*
+> *Role @ Stealth Startup | apps with React, data-viz, F# aficionado, a over a decade experience & growth with JavaScript <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="10" height="10">, experienced with Ruby, Golang, PHP & more*
 
-*Ceane Lamerez © 2020*
-
-Hey Ceane (pronounced Shawn)! How are you developing across the years? 
-
-
-### Languages and Pacakges / so far...
-  *In order from most knowledgable*
-  * JavaScript <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="10" height="10">
-  * React
-  * F#
-  * Ruby
-  * Go
-  * Python
-  * PHP
+**Quick resources**
+* [Kanban / personal goals](https://trello.com/b/Px2FlyFu/ceane)
+* [Resume](https://www.dropbox.com/s/l0dkodx1944wx5u/Resume.pdf?dl=0)
+* [Medium]()
 
 >  year / top concern
-
-## 2020 / 🌕 nocturnal, AI, & ■ from Ceane Corporation
+## 2020 / building an app, AI, & stealth startup
 * 🎯 Goals / Retrospect
-  - [ ] Major personal reorganization to remain transparent & accountable througout the years
-  - [ ] Get faster with the keyboard
-  - [ ] launch V1 of 🌕 nocturnal (my first startup! 🍻)
-    - [ ] Gain a decent AI & ML engineering background
-  - [ ] Experiment with AR / VR
-  - [ ] More hobbyist programmings
-  - [ ] Read more with annotations!
-  - [x] Write more. ✍️
+  - [ ] More hobbyist programmings, esp. in F#
+  - [ ] Refine & expand an expertise in AI & ML engineering
+  - [ ] Experiment with AR; build a VR platform
+  - [ ] Develop in-depth expertise in cryptocurrency & blockchain; make a blockchain
+    - > if only we did this 6-7 years earlier... 😔
+  - [ ] Read more & add annotations!
+  - [ ] Write more. ✍️
+    - [ ] Rebuild the internet.
+    - [ ] Blockchain everywhere.
+    - [ ] 21st Century Strong Ai.
+      - *features in a strong ai system in the 21st century*
+      - Scale
+      - Relationships
+      - World Building
+      - Context + Categorization
+      - Knowledge & Domanin Curiosity
+      - Process & Workflow
+      - Organization
+      - Legal & Regulatory
+      - Inventory & task fulfillment
+      - Requests
+      - Conversations + Presentational messaging
+      - Motivations & Emotions
+    - [ ] 21st Century Ao – Autonomous Systems and their components, IoT.
+    - [ ] 21st Century Technological Singularity.
   - [ ] Exercise more.
   - [ ] Eat better!
-  * Majorly restructure my personal organization & [open my Trello board to the public](https://trello.com/b/Px2FlyFu/ceane)
-    * Trello is awesome :tada:
-  * Making a Focus™ via an app
+  - [ ] More mindfulness & meditation
+  - [ ] Attend more conferences & trainings
+  - [ ] Travel more to historical & cultural places
+  - [ ] Start a non-profit this year...
+    * **Begin scaffolding out a decades long initative on eliminating global poverty.**
+      * > I need a deeper awareness and understanding of the conditions of global poverty, microeconimics, conflict, healthcare & education in areas to combat this issue; along with this I'll need to network more. Poverty is most certainly the 21st Century's most prevalent issue, only in competition with environmentalism & sustainability, and key to solving poverty, especially in my own backyard in SF, one must understand that the problem or issue goes far beyond mental healthcare and/or finger pointing. Poverty stems from generations of economical, social & societal changes that pressure affected groups and regions, depriving many people of economic initiative, quality democratic systems, social good & awareness, education, longevity, nimble social & cultural mobility, and many more economic & social opportunities within wealthier communities.
+    * **Begin figuring out what does a global healthcare system look like?**
+      * > As billions of people are born in the 21st century and billions more age and live longer than the generations before them, how will they receive healthcare? Additionally the policies of the 21st century in healthcare that are being debated, refined & implemented on national scales may scale to supranational and/or scales.
+    * **Advocate for connectivity globally.**
+    * **Combat communicative diseases & HIV/AIDS**
+  - [ ] Brainstorm late 21st century & society
+    * **Technological Singularity, 3 generations later**
+      * Immortality
+      * Terraforming
+      * Developing environmental biomes in space
+      * Ultra Ai
+      * Ultra Ao
+      * Seeing into the future?
+      * Asteroid mining?
+  * Questions, what does my life look life 50 years from now?
+    - Create a competitive, top-notch university & education platform with a personalized learning curriculum?
 
 * 📖 Reading List and Events (code, ai, technical)
   * [21 Neurotech Startups To Watch](https://www.cbinsights.com/research/neurotech-startups-to-watch/)
@@ -41,9 +68,13 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
 * 🎻 Proofs
   * Recursion / F#
 
-## 2019 / ■ from Ceane Corporation
+* New or trending terminology
+  * **Ao** is simply autonomous systems and processess, this can include robotics, automated manufacturing, autonomous vehicles, IoTs & any other machine-software pair driven with Ai and the goal to refine an automated process around it.
+
+
+## 2019 / stealth startup
 * 🎯 Goals / Retrospect
-  - [x] Do my own startup / ■ Ceane Corporation :tada:
+  - [x] Joined stealth startup :tada:
   - [x] Concept future AR experiences
   - [x] Research & concept tech for a Focus™
     * Neuro-modulation
@@ -53,17 +84,12 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   * Decide which tools I'm going to use personally for day-to-day stuff 💡
     * Trello
     * Dropbox Paper
-    * Figma 
-      > design all the things!
-
-* 📖 Reading List and Events (code, ai, technical)
-  * TBD
+    * Figma
 
 
 ## 2018 / 🌕 nocturnal
 * 🎯 Goals / Retrospect
   - [x] A focus is definitely possible...
-    > 🔮 San Francisco is a very strange place, indeed. On my journey here, I've learned that building a focus is most definitely possible, EEG tech is only years away from a feasible device!
   * iOS 12 (Shortcuts, ARKit 2)
 
 * 📖 Reading List and Events (code, ai, technical)
@@ -71,6 +97,10 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   * Real-World Functional Programming by Tomas Petricek with Jon Skeet
   * F# Applied by Tamizhvedan
   * Analyzing and Visualizing Data with F# by Tomas Petricek
+  * WaffleJS in SF
+
+* 📖 Reading List and Events (code, ai, technical)
+  * Strengths Finder 2.0 by Tom Rath
 
 
 ## 2017 / 🌕 nocturnal
@@ -80,6 +110,13 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   - [x] Dating app concept named: 🌕 nocturnal
   * iOS 11 (ARKit, CoreML)
   * Dropbox Paper 💡
+  * **Began learning & prioritized F# as one of my primary code langs.**
+  * What does my life look like 50 years from now?
+    * Genetic engineering?
+    * 
+
+* 📖 Reading List and Events (code, ai, technical)
+  * RubyConf in Kansas City
 
 
 ## 2016 / career
@@ -91,6 +128,12 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   * Data Science is growing as an industry!
   * Do Trello boards for year to year development
   * Worked with Agile workflow
+  * **Began working with Ruby on Rails**
+
+* 📖 Reading List and Events (code, ai, technical)
+  * The Art of Seduction by Robert Greene
+  * Power by Robert Greene
+
 
 ## 2015 / life?
 * 🎯 Goals / Retrospect
@@ -100,11 +143,19 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
     > With more innovation in AI and interfaces, what does a new age interface look like beyond this decade's evolution of smartphones?
   - [x] Move to San Francisco, California 🌁
     > Fog. Great Mass Transit. Food!
-  - [x] Bring more awareness of ES2015/ES6 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="10" height="10"> into the workplace
+  - [x] Bring more awareness of ES2015/ES6 into the workplace
   - [x] Science readings & study
     - [x] arXiv.org
     - [x] Frontiers
     - [x] PLOS
+  * Poking my nose into CUDA programming
+  * Did my first experiment & learning with WebGL
+
+* 📖 Reading List and Events (code, ai, technical)
+  * Meditations by Marcus Aurelius
+  * Chineasy by ShaoLan Hsueh
+  * Maxims by La Rouchefoucald
+
 
 ## 2014 / career
 * 🎯 Goals / Retrospect
@@ -112,6 +163,9 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   - [x] Babel.js?!
   - [x] Became a pescatarian.
   - * macOS Yosemite 🤤
+
+* 📖 Reading List and Events (code, ai, technical)
+  * #Girlboss by Sophia Amoruso
 
 
 ## 2013 / career
@@ -139,6 +193,7 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   * My first iPhone (silver iPhone 5)
   * First tech job, programming as a front-end touching some full stack things (PHP :ghast:)
   * Second tech job with a much more mature stack (C# :happy:)
+  * **Day to day working with CSS3, HTML & JS**
 
 
 ## 2011 / 🎓 graduating
@@ -146,12 +201,17 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   * Create a personal website (w HTML5)
   * Learn more JavaScript
   * iOS 5 😀 (Emojis)
+  * **Lots of experiments in CSS3, HTML & JS**
+  - [x] Brainstorm & imagine the future
+    * **Quantum teleportation, is it achievable?**
+    * Holograms?
 
 
 ## 2010 / school
 * 🎯 Goals / Retrospect
   - [x] Keep learning more CSS3 & HTML5
   * Sketch.app!
+  * **Learned JavaScript as my main programming language**
 
 * 📖 Reading List and Events (code, ai, technical)
   * [Thoughts on Flash](https://www.apple.com/hotnews/thoughts-on-flash/)
@@ -160,7 +220,7 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
 
 ## 2009 / code
 * 🎯 Goals / Retrospect
-  - [x] Learn CSS3 & HTML5
+  - [x] **Learn CSS3 & HTML5**
   * Started the ACE program – Community college in HS
 
 
@@ -169,6 +229,8 @@ Hey Ceane (pronounced Shawn)! How are you developing across the years?
   - [x] Learn CSS & HTML
   - [x] Putting together projects in Dreamweaver (embarassing in retrospect)
 
+
 ## 2008 / design
 * 🎯 Goals / Retrospect
   * Photoshop connoisseur
+  * **Learning about Ruby on Rails**

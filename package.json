@@ -4,14 +4,15 @@
   "author": "Ceane La. <ceanela@users.noreply.github.com> (https://ceane.la)",
   "license": "SEE LICENSE IN LISENCE.md",
   "workspaces": [
+    "ceane.la",
     "packages/*"
   ],
   "scripts": {
     "prerelease": "yarn build",
     "release": "lerna publish",
-    "bootstrap": "lerna bootstrap",
     "precommit": "pretty-quick --staged",
     "commit": "git-cz",
+    "bootstrap": "lerna bootstrap --use-workspaces",
     "prebuild": "tsc",
     "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore '**/*.story.tsx,**/*.spec.tsx,**/*.spec.ts,ceane.la' --extensions '.ts,.tsx'",
     "watch": "lerna exec --parallel -- babel --root-mode upward --watch src -d lib --ignore '**/*.story.tsx,**/*.spec.tsx,**/*.spec.ts,ceane.la' --extensions '.ts,.tsx'",

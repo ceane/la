@@ -3,14 +3,16 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "pre": "cd .. && yarn build && cd ceane.la",
-    "start": "yarn pre && react-scripts start",
+    "start": "react-scripts start",
     "start:debug": "yarn --inspect-brk=5858 start --runInBand --no-cache",
-    "build": "yarn pre && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@ceanela/fontloader": "^0.1.1",
+    "@ceanela/grid": "^0.1.1",
+    "@ceanela/metadata": "^0.1.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
