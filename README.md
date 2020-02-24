@@ -4,10 +4,13 @@
 > *Role @ Stealth Startup | apps with React, data-viz, F# aficionado, a over a decade experience & growth with JavaScript <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="10" height="10">, experienced with Ruby, Golang, PHP & more*
 
 **🔗 Workflow & Links**
-* [ceane.la 😎](https://ceane.la)
+* [ceane.la 😎](https://ceane.la/)
+* [GitHub](https://github.com/ceanela)
+* [HackerRank](https://hackerrank.com/)
 * [Resume](https://www.dropbox.com/s/l0dkodx1944wx5u/Resume.pdf)
 * [Kanban / personal goals](https://trello.com/b/Px2FlyFu/ceane)
 * [Medium](https://medium.com/@ceanela)
+* [Twitter](https://twitter.com/ceaneceo)
 
 >  year / top concern
 ## 2020 / building an app, AI, & stealth startup
