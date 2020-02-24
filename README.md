@@ -24,7 +24,7 @@
       - [ ] Networking for Strong Ai ecosystems, rebuilding the internet.
       - [ ] Blockchain and Strong Ai.
       - [ ] Heavy duty networking, data & streaming Ai.
-    - [ ] 21st Century Strong Ai.
+    - [ ] **Strong Ai in the 21st Century.**
       - ML language as a basis for Strong Ai.
         - Living languages for Strong Ai aka streaming standards & compilation, versioning old vs @now.
         - Remote & centralized compilation
@@ -42,7 +42,11 @@
       - Requests.
       - Conversations + Presentational messaging.
       - Motivations & Emotions.
+      - Logic & Product Calculus.
       - Singing, real-time anticipatatory sequencing.
+        - *usually in an ecosystem & its products around a "voice" with multiplex motivations & priorities*
+        - *sense: anticipate -> catalyst -> differentiate -> assimilate*
+        - *streaming as standard*
       - *lifecycle & functions of strong ai systems*
       - Ai at Work.
       - Ai at Rest.
@@ -63,16 +67,36 @@
       - Adaptable, Living Software.
       - Research & Development.
       - Data Science & Optimization.
-    - [ ] 21st Century Super Ai, a preliminary overview. 
+    - [ ] **Super Ai in the 21st Century, a preliminary overview.**
       - Ai and Biology, Biological Ecosystems & Genetic Engineering.
       - Ai and the fusion of biology & polymers.
       - Ai and allowable initiative, powerful ecosystems for Super Ai.
       - Ai and its productivity.
-    - [ ] 21st Century Ao – Autonomous Systems and their components, IoT.
+      - Conducting, Super Ai and the amalgamation of multiple Strong Ais that sing.
+    - [ ] **Ultra Ai in the 21st Century, a preliminary overview**
+      - Observing & managing biological ecosystems on a global scale
+      - Combating pollution from Humans & Strong Ai
+    - [ ] **Ao – Autonomous Systems and their components, IoT.**
+      - *primarily a component for strong ai*
     - [ ] 21st Century Technological Singularity.
     - [ ] Durable systems & scale and Ai Workflow.
     - [ ] Manufacturing, construction & terraforming with Ao Workflow.
     - [ ] Software for Strong Ai systems.
+  - [ ] Security with Experience
+    - Biometrics
+    - Device Based Auth
+    - Topics and Allowable Access
+  - [ ] Life Sciences First
+    - *inherent traits of scalable systems. how is life able to scale & proliferate?*
+    - Adaptable.
+    - Variable.
+    - Composable.
+    - Instantiation.
+    - Message passing, biological communication.
+    - *what makes humans so prolific?*
+    - Awareness.
+    - Culture.
+    - Economy based on living and non-living materials & products.
   - [ ] Exercise more.
   - [ ] Eat better!
   - [ ] More mindfulness & meditation
