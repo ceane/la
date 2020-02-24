@@ -28,11 +28,12 @@
     "@ceanela/*": ["packages"]
   },
   "include": [
-    "packages"
+    "packages", "packages/.Annotation"
   ],
   "exclude": [
     "node_modules",
-    "lib-esm"
+    "lib-esm",
+    "lib"
   ],
   "files": [
     "./packages/types/custom.d.ts",

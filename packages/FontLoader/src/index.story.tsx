@@ -2,7 +2,7 @@
 // https://ceane.la
 import React from 'react'
 import FontLoader from '.'
-import Text from '@ceanela/text'
+import Text from 'packages/.Annotation/lib/node_modules/@ceanela/text'
 
 export default { title: 'FontLoader' }
 

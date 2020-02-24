@@ -10,9 +10,22 @@ import themes from '@ceanela/themes'
 import logo from './logo.svg'
 import './App.css'
 
+const metadata = {
+  topic: 'Ceane La. / Software Engineer in SF',
+  tagline: 'Software Engineer in San Francisco, CA focused on the front-end',
+  locale: 'en',
+  keywords: [
+    'software engineer',
+    'ceane',
+    'javascript',
+    'san francisco',
+    'california'
+  ]
+}
+
 const App = () => (
   <ThemeProvider theme={themes}>
-    <Metadata />
+    <Metadata {...metadata} />
     <FontLoader />
     <Grid>
       <header className="App-header">
@@ -29,6 +42,12 @@ const App = () => (
           Learn React
         </a>
       </header>
+      <div>
+
+      </div>
+      <div>
+
+      </div>
     </Grid>
   </ThemeProvider>
 )

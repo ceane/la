@@ -3,10 +3,11 @@
 > *[https://ceane.la](https://ceane.la)*
 > *Role @ Stealth Startup | apps with React, data-viz, F# aficionado, a over a decade experience & growth with JavaScript <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="10" height="10">, experienced with Ruby, Golang, PHP & more*
 
-**Quick resources**
+**🔗 Workflow & Links**
+* [ceane.la 😎](https://ceane.la)
+* [Resume](https://www.dropbox.com/s/l0dkodx1944wx5u/Resume.pdf)
 * [Kanban / personal goals](https://trello.com/b/Px2FlyFu/ceane)
-* [Resume](https://www.dropbox.com/s/l0dkodx1944wx5u/Resume.pdf?dl=0)
-* [Medium]()
+* [Medium](https://medium.com/@ceanela)
 
 >  year / top concern
 ## 2020 / building an app, AI, & stealth startup
@@ -18,24 +19,60 @@
     - > if only we did this 6-7 years earlier... 😔
   - [ ] Read more & add annotations!
   - [ ] Write more. ✍️
-    - [ ] Rebuild the internet.
-    - [ ] Blockchain everywhere.
+    - [ ] 21st Century Networking.
+      - [ ] Digital networking from the 19th Century to present.
+      - [ ] Networking for Strong Ai ecosystems, rebuilding the internet.
+      - [ ] Blockchain and Strong Ai.
+      - [ ] Heavy duty networking, data & streaming Ai.
     - [ ] 21st Century Strong Ai.
-      - *features in a strong ai system in the 21st century*
-      - Scale
-      - Relationships
-      - World Building
-      - Context + Categorization
-      - Knowledge & Domanin Curiosity
-      - Process & Workflow
-      - Organization
-      - Legal & Regulatory
-      - Inventory & task fulfillment
-      - Requests
-      - Conversations + Presentational messaging
-      - Motivations & Emotions
+      - ML language as a basis for Strong Ai.
+        - Living languages for Strong Ai aka streaming standards & compilation, versioning old vs @now.
+        - Remote & centralized compilation
+      - Open source process, systems & devices.
+      - *operational domain & features of a strong ai system in the 21st century*
+      - Scale.
+      - Relationships.
+      - World Building (abstract).
+      - Context + Categorization.
+      - Knowledge & Domanin Curiosity.
+      - Process & Workflow.
+      - Organization.
+      - Legal & Regulatory.
+      - Inventory & task fulfillment.
+      - Requests.
+      - Conversations + Presentational messaging.
+      - Motivations & Emotions.
+      - Singing, real-time anticipatatory sequencing.
+      - *lifecycle & functions of strong ai systems*
+      - Ai at Work.
+      - Ai at Rest.
+      - Ai with Objectives, Planning & Logistics.
+      - Ai with Optimization.
+      - Ai with economy & ecosystems.
+      - Ai with energy & environmetnalism.
+      - Ai and Human workflow & productivity.
+      - Ai and Human health & psychology.
+      - Ai and Human rehabilitaton: passification, peace & education.
+        - How does Ai interact with Humans & their organizations?
+        - What power do Humans have over Ai they interact with?
+        - What can Ai do to sustain Human participation in pursuit of its goals?
+        - How can Ai maintain relationships with Humans in order to maintain its goals?
+      - Ai and advanced non-living materials, metamaterials & nanomaterials.
+      - *achievable with Strong Ai*
+      - Terrraforming.
+      - Adaptable, Living Software.
+      - Research & Development.
+      - Data Science & Optimization.
+    - [ ] 21st Century Super Ai, a preliminary overview. 
+      - Ai and Biology, Biological Ecosystems & Genetic Engineering.
+      - Ai and the fusion of biology & polymers.
+      - Ai and allowable initiative, powerful ecosystems for Super Ai.
+      - Ai and its productivity.
     - [ ] 21st Century Ao – Autonomous Systems and their components, IoT.
     - [ ] 21st Century Technological Singularity.
+    - [ ] Durable systems & scale and Ai Workflow.
+    - [ ] Manufacturing, construction & terraforming with Ao Workflow.
+    - [ ] Software for Strong Ai systems.
   - [ ] Exercise more.
   - [ ] Eat better!
   - [ ] More mindfulness & meditation
