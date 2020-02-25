@@ -31,3 +31,6 @@ lerna-debug.log*
 
 # built files from the monorepo
 packages/**/lib
+lib
+lib-esm
+_bundles

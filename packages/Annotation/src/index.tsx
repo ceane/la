@@ -1,7 +1,7 @@
 // ■ from Ceane La. © 2020
 // https://ceane.la
 import styled from 'styled-components'
-import Text from 'packages/.Annotation/src/node_modules/@ceanela/text'
+import Text from '@ceanela/text'
 
 const Annotation = styled(Text)`
   font-size: 12px;

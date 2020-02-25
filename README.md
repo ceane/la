@@ -1,6 +1,6 @@
 # ceane.la 😎
-> *■ from Ceane La. © 2020*
-> *[https://ceane.la](https://ceane.la)*
+> *■ from Ceane La. © 2020* <br />
+> *[https://ceane.la](https://ceane.la)* <br />
 > *Role @ Stealth Startup | apps with React, data-viz, F# aficionado, a over a decade experience & growth with JavaScript <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="10" height="10">, experienced with Ruby, Golang, PHP & more*
 
 **🔗 Workflow & Links**
@@ -12,8 +12,8 @@
 * [Medium](https://medium.com/@ceanela)
 * [Twitter](https://twitter.com/ceaneceo)
 
->  year / top concern
-## 2020 / building an app, AI, & stealth startup
+>  *[year]* / **[top concern]**
+## 2020 / stealth startup, learn more Ai
 * 🎯 Goals / Retrospect
   - [ ] More hobbyist programmings, esp. in F#
   - [ ] Refine & expand an expertise in AI & ML engineering
@@ -199,7 +199,7 @@
   * Power by Robert Greene
 
 
-## 2015 / life?
+## 2015 / life?, learn ML (machine learning), LSTMs, 
 * 🎯 Goals / Retrospect
   - [x] Conceive of a new dating app 💕
     > As a member of LGBT, I've noticed that the apps and sites are not to par, not to mention the digital dating industry as a whole can benefit from a new wave of innovation. The model is still the same from the 90s. Would love to create something new!
