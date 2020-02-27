@@ -5,5 +5,7 @@
   "author": "Ceane La. <ceanela@users.noreply.github.com> (https://ceane.la)",
   "license": "SEE LICENSE IN ../LISENCE.md",
   "main": "lib/index.js",
-  "module": "src/index.ts"
+  "files": [
+    "lib"
+  ]
 }

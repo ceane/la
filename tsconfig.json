@@ -24,11 +24,12 @@
     "baseUrl": "."
   },
   "paths": {
-    "*": ["node_modules"],
-    "@ceanela/*": ["packages"]
+    "@/*": ["./packages/*"],
+    "@": ["./packages"],
+    "*": ["node_modules"]
   },
   "include": [
-    "packages", "packages/.Annotation"
+    "packages/**/src"
   ],
   "exclude": [
     "node_modules",

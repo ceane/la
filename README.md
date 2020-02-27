@@ -5,9 +5,9 @@
 
 **🔗 Workflow & Links**
 * [ceane.la 😎](https://ceane.la/)
+* [Resume](https://www.dropbox.com/s/l0dkodx1944wx5u/Resume.pdf)
 * [GitHub](https://github.com/ceanela)
 * [HackerRank](https://hackerrank.com/)
-* [Resume](https://www.dropbox.com/s/l0dkodx1944wx5u/Resume.pdf)
 * [Kanban / personal goals](https://trello.com/b/Px2FlyFu/ceane)
 * [Medium](https://medium.com/@ceanela)
 * [Twitter](https://twitter.com/ceaneceo)
@@ -18,10 +18,12 @@
   - [ ] More hobbyist programmings, esp. in F#
   - [ ] Refine & expand an expertise in AI & ML engineering
   - [ ] Experiment with AR; build a VR platform
+  - [ ] Sharpen my CS fundamentals, once again
   - [ ] Develop in-depth expertise in cryptocurrency & blockchain; make a blockchain
     - > if only we did this 6-7 years earlier... 😔
   - [ ] Read more & add annotations!
-  - [ ] Write more. ✍️
+  - [ ] Code more, way more.
+  - [ ] Write way more. ✍️
     - [ ] 21st Century Networking.
       - [ ] Digital networking from the 19th Century to present.
       - [ ] Networking for Strong Ai ecosystems, rebuilding the internet.
@@ -37,7 +39,7 @@
       - Relationships.
       - World Building (abstract).
       - Context + Categorization.
-      - Knowledge & Domanin Curiosity.
+      - Knowledge & Domain Curiosity.
       - Process & Workflow.
       - Organization.
       - Legal & Regulatory.
@@ -109,9 +111,9 @@
     * **Begin scaffolding out a decades long initative on eliminating global poverty.**
       * > I need a deeper awareness and understanding of the conditions of global poverty, microeconimics, conflict, healthcare & education in areas to combat this issue; along with this I'll need to network more. Poverty is most certainly the 21st Century's most prevalent issue, only in competition with environmentalism & sustainability, and key to solving poverty, especially in my own backyard in SF, one must understand that the problem or issue goes far beyond mental healthcare and/or finger pointing. Poverty stems from generations of economical, social & societal changes that pressure affected groups and regions, depriving many people of economic initiative, quality democratic systems, social good & awareness, education, longevity, nimble social & cultural mobility, and many more economic & social opportunities within wealthier communities.
     * **Begin figuring out what does a global healthcare system look like?**
-      * > As billions of people are born in the 21st century and billions more age and live longer than the generations before them, how will they receive healthcare? Additionally the policies of the 21st century in healthcare that are being debated, refined & implemented on national scales may scale to supranational and/or scales.
+      * > As billions of people are born in the 21st century and billions more age and live longer than the generations before them, how will they receive healthcare? Additionally the policies of the 21st century in healthcare that are being debated, refined & implemented on national scales may scale to supranational and/or global scales.
+      * **Combat communicative diseases such as Malaria & other diseases such as HIV/AIDS**
     * **Advocate for connectivity globally.**
-    * **Combat communicative diseases & HIV/AIDS**
   - [ ] Brainstorm late 21st century & society
     * **Technological Singularity, 3 generations later**
       * Immortality

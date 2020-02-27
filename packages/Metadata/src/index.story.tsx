@@ -3,6 +3,12 @@
 import React from 'react'
 import Metadata from '.'
 
+import G from '@ceanela/grid'
+
+const F = () => (
+  <G />
+)
+
 export default { title: 'Metadata' }
 
 export const withDefaults = () => (
